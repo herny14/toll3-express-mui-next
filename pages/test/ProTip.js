@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     verticalAlign: 'middle',
     marginRight: theme.spacing(1),
   },
-}));
+}, {index:1}));
 
 export default function ProTip() {
   const classes = useStyles();
